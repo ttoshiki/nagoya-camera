@@ -819,7 +819,7 @@ a:active {
 .site-main .posts-navigation a,
 .site-main .post-navigation a {
   display: inline-block;
-  background-color: #e60012;
+  background-color: #495178;
   color: white;
   padding: 5px 25px;
   border-radius: 10px;
@@ -1087,7 +1087,7 @@ a:active {
 }
 
 .header_right_tel {
-  color: #e60012;
+  color: #495178;
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 1px;
@@ -1150,7 +1150,7 @@ a:active {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 0;
-  background-color: #e60012;
+  background-color: #495178;
   color: white;
   text-align: center;
   font-size: 30px;
@@ -1348,7 +1348,7 @@ a:active {
   text-align: left;
   font-size: 28px;
   font-weight: 600;
-  color: #e60012;
+  color: #495178;
 }
 
 .front_legalItem:not(:first-child) .front_legalSubHeading {
@@ -1582,7 +1582,7 @@ a:active {
 .cet_2 {
   width: 150px;
   border-radius: 25px;
-  background-color: #e60012;
+  background-color: #495178;
   color: white;
   font-size: 25px;
   letter-spacing: 0.1em;
@@ -1635,7 +1635,7 @@ a:active {
 }
 
 .point3_text .point3_dark {
-  color: #e60012;
+  color: #495178;
   font-size: 2.3vw;
 }
 
@@ -1834,7 +1834,7 @@ a:active {
 .company_box .company_1st_message .company_catchcopy {
   font-size: 3vw;
   font-weight: bold;
-  color: #e60012;
+  color: #495178;
   letter-spacing: 0.2em;
   text-align: center;
   position: relative;
@@ -1912,7 +1912,7 @@ a:active {
 .front_flow_header {
   font-size: 50px;
   color: white;
-  background-color: #e60012;
+  background-color: #495178;
   padding: 30px;
 }
 
