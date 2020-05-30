@@ -220,7 +220,8 @@ get_header();
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_2.png" alt="ご要望に応えられる技術力/提案力" class="image-point2">
 			<div class="sec_inner_container sec_inner_bgwhite sec_price">
 				<p class="pt-3 font-weight-bold">明確な料金設定で、工事費用が気になる方にも安心してご利用頂いております。</p>
-				<img class="price_list" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list.png" alt="価格表">
+				<img class="price_list pc" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list.png" alt="価格表">
+				<img class="price_list sp" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list_sp.png" alt="価格表">
 			</div>
 			<!-- point 3 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_3.png" alt="ジャンルが違っても一括受注が可能！">
