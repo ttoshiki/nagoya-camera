@@ -80,66 +80,141 @@ get_header();
 			<div class="service_map_wrapper">
 				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/service_map.png" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/service_map@2x.png" alt="愛知県名古屋市を中心にサービスを展開" class="service_map">
 			</div>
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/triangle.png" class="triangle">
-		</section>
-		<section id="front_legal" class="sec_container">
-			<h1 class="front_legalHeading">
-				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_caution.png">
-				<span>建物の所有者や管理者は、次の法律や規則にもとづいて、<br />防火設備の設置や点検を行わなくてはなりません。</span>
-			</h1>
-			<ul class="front_legalList">
-				<li class="front_legalItem">
-					<h2 class="front_legalSubHeading">・消防法</h2>
-					<p class="front_legalParagraph">防火についての根本をあらわした法律（国会が制定する命令）です。消防機関の権限、消防設備等の設置義務・更改義務、建物の規制内容などの、基本的な事項が定められています。</p>
-				</li>
-				<li class="front_legalItem">
-					<h2 class="front_legalSubHeading">・消防法施行令</h2>
-					<p class="front_legalParagraph">消防法を施行するための政令（内閣によって制定された命令）です。消防用設備が満たすべき技術的基準、救急業務、消防設備の検査などについての規則が定められています。</p>
-				</li>
-				<li class="front_legalItem">
-					<h2 class="front_legalSubHeading">・火災予防条例</h2>
-					<p class="front_legalParagraph">国による法律や政令の他、各市町村が火災予防条例を制定して、防火を推進しています。<br />
-					条例では、消防法の委任を受けた事柄に加えて、地方の事情により必要とされる事柄、自主的に安全性向上のため規制すべき事柄などが定められています</p>
-				</li>
-				<li class="front_legalItem">
-					<h2 class="front_legalSubHeading">・建築基準法に基づく定期報告制度</h2>
-					<p class="front_legalParagraph">建築物・建築設備・防火設備・昇降機等について、定期的に専門の技術者に調査・検査をさせ、 その結果を特定行政庁に報告させることを、建築物の所有者等に義務付けられています。</p>
-				</li>
-			</ul>
+			<div class="service_triangle_wrapper">
+				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/triangle.png" class="triangle">
+			</div>
 		</section>
 		<section id="front_3point" class="sec_container">
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/three_points.png" alt="名古屋防犯カメラが選ばれている3つのポイント">
 			<!-- point 1 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_1.png" alt="消防・防災に関するあらゆるお困りごとを解決">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/building.jpg" alt="" class="front_3pointBuildingImg">
 			<div class="sec_inner_container mt-0 pt-2 sec_inner_bgwhite">
-				<div class="const_example_box">
-					<div class="const_example_box_header">
-						<span>工事・点検対象</span>
+					<h2 class="point1-heading2">場所／目的／シーン／必要な機能／に合った防犯カメラをご案内！</h2>
+					<img class="image-pc-sp" src="<?php bloginfo('template_directory'); ?>/img/front-page/point_1_pc_sp.png" alt="">
+					<p class="point1-always-check">
+						モニターはもちろんPCでもスマホでも<br />
+						100万画素以上の鮮明画像を<br />
+						いつでも、どこでも遠隔で確認！
+					</p>
+					<div class="camera-type">
+						<img class="image-camera-type" src="<?php bloginfo('template_directory'); ?>/img/front-page/cloud_recording.png" alt="クラウド録画タイプカメラ">
+						<img class="image-camera-type" src="<?php bloginfo('template_directory'); ?>/img/front-page/sd_recording.png" alt="SDカード録画タイプカメラ">
 					</div>
-					<div class="d-flex flex-wrap justify-content-center">
-						<ul class="const_example_list">
-							<li class="const_example_item">ビル<br />マンション</li>
-							<li class="const_example_item">工　場</li>
-							<li class="const_example_item">店　舗</li>
-							<li class="const_example_item">介護施設</li>
-							<li class="const_example_item">ホテル<br />民泊施設</li>
-							<li class="const_example_item">学校</li>
-							<li class="const_example_item">オフィス</li>
-						</ul>
-						<div class="const_example_text col-12 col-md-8">
-							<div class="cet_2">施工実績</div>
-							<ul class="cet_3">
-								<li class="highlight">・法定消防点検</li>
-								<li class="highlight">・消防設備設置工事</li>
-								<li class="highlight">・避難灯／誘導灯工事</li>
-								<li class="highlight">・連結送水管試験／改修</li>
-								<li class="highlight">・スプリンクラー新設／移設</li>
-							</ul>
-							<p>他、消防設備に関係するものはご相談ください<br />上記以外の内容にも、熟練の職人が対応致します</p>
+					<p class="camra-type-paragraph">お取り扱いがございます。</p>
+					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type1.png" alt="屋内用AHDドームカメラ" class="camera-type-heading">
+					<div class="d-flex camera_type_contents">
+						<div class="camera_type_images">
+							<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type1_image.jpg" alt="" class="camera_type_image">
+							<p class="camera_type_images_text">カメラはいずれかを選択</p>
 						</div>
+						<ul class="camera_type_list">
+							<li class="camera_type_item">景観を損ねないカメラ</li>
+							<li class="camera_type_item">マンションやビルのエントランス、工場や会社のロビー等で広く使用されています</li>
+							<li class="camera_type_item">壁/天井どちらにでも設置可能</li>
+						</ul>
 					</div>
-				</div>
+					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type2.png" alt="屋外用 AHDガンタイプカメラ" class="camera-type-heading">
+					<div class="d-flex camera_type_contents">
+						<div class="camera_type_images">
+							<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type2_image.jpg" alt="" class="camera_type_image">
+							<p class="camera_type_images_text">カメラはいずれかを選択</p>
+						</div>
+						<ul class="camera_type_list">
+							<li class="camera_type_item">防水タイプ（IP67）なので屋外でも安心</li>
+							<li class="camera_type_item">夜間は赤外線照射機能により白黒に切り替わり、鮮明に撮影します（赤外線投光 20M）</li>
+							<li class="camera_type_item">逆光にも強い WDR 機能付</li>
+						</ul>
+					</div>
+					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type3.png" alt="管理　レコーダー" class="camera-type-heading">
+					<div class="d-flex camera_type_contents">
+						<div class="camera_type_images">
+							<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type3_image.jpg" alt="" class="camera_type_image">
+						</div>
+						<ul class="camera_type_list">
+							<li class="camera_type_item">録画期間はカメラ1台で約2ヶ月（画質・コマ数の設定により異なります）</li>
+							<li class="camera_type_item">2TB 大容量HDD装備</li>
+							<li class="camera_type_item">管理ソフト付属で複数拠点管理</li>
+							<li class="camera_type_item">既設アナログ混在 OK</li>
+							<li class="camera_type_item">HDML、D-SUB接続可</li>
+						</ul>
+					</div>
+					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type4.png" alt="標準工事　ネットワーク設定も含む" class="camera-type-heading -last">
+					<ul class="camera_type_list -last">
+						<li>月々 5,000円〜導入できます！</li>
+					</ul>
+					<p class="camera_option_paragprah">
+						<mark class="highlight -under">各種センサー</mark>,<mark class="highlight -under">サイレン</mark>,<mark class="highlight -under">撃退装置連動</mark>も<br />
+						弊社なら可能です
+					</p>
+					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_options.jpg" alt="" class="image-option">
+					<p class="how-to-use-paragraph">活用方法は様々！</p>
+					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/how_to_use.png" alt="" class="image-option">
+					<h2 class="heading-brd-radius">設置実績</h2>
+					<h3 class="point1-heading3"><strong class="point1-leaving">戸建住宅</strong>もお任せください！</h3>
+					<ul class="achievement-list">
+						<li class="achievement-item">
+							<div class="achievement-genre">
+								<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_local_goverment.png" alt="" class="achievement-icon -local_goverment">
+								<h4 class="achievement-heading">自治体</h4>
+							</div>
+							<ul class="achievement-contents-list">
+								<li class="achievement-content-item">・商店街</li>
+								<li class="achievement-content-item">・アーケード</li>
+								<li class="achievement-content-item">・街頭</li>
+								<li class="achievement-content-item">・駐車場</li>
+								<li class="achievement-content-item">・駐輪場</li>
+								<li class="achievement-content-item">・公園</li>
+								<li class="achievement-content-item">・体育館</li>
+								<li class="achievement-content-item">・公民館</li>
+								<li class="achievement-content-item">・市民館</li>
+								<li class="achievement-content-item">・病院</li>
+								<li class="achievement-content-item">・役所</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="achievement-list">
+						<li class="achievement-item">
+							<div class="achievement-genre">
+								<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_general_company.png" alt="" class="achievement-icon -general_company">
+								<h4 class="achievement-heading">一般企業</h4>
+							</div>
+							<ul class="achievement-contents-list">
+								<li class="achievement-content-item">・駅</li>
+								<li class="achievement-content-item">・スーパー</li>
+								<li class="achievement-content-item">・飲食店</li>
+								<li class="achievement-content-item">・商店/ホームセンター</li>
+								<li class="achievement-content-item">・貴金属店</li>
+								<li class="achievement-content-item">・パチンコ店</li>
+								<li class="achievement-content-item">・工場</li>
+								<li class="achievement-content-item">・工事現場</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="achievement-list">
+						<li class="achievement-item">
+							<div class="achievement-genre">
+								<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_real_estate.png" alt="" class="achievement-icon -real_estate">
+								<h4 class="achievement-heading">不動産物件</h4>
+							</div>
+							<ul class="achievement-contents-list">
+								<li class="achievement-content-item">・ビル</li>
+								<li class="achievement-content-item">・マンション</li>
+								<li class="achievement-content-item">・アパート</li>
+								<li class="achievement-content-item">・商業施設</li>
+								<li class="achievement-content-item">・コインパーキング</li>
+								<li class="achievement-content-item">・月極駐車場</li>
+							</ul>
+						</li>
+					</ul>
+					<h2 class="heading-brd-radius">工事内容</h2>
+					<h3 class="construction-heading"><mark class="highlight">・防犯カメラ工事</mark></h3>
+					<p class="construction-paragpraph">豊富なラインナップから、お客様の要望と<br />ご予算に合ったカメラをご提案いたします</p>
+					<h3 class="construction-heading"><mark class="highlight">・防犯カメラのリニューアル工事</mark></h3>
+					<p class="construction-paragpraph">古くなったカメラのリニューアルもお任せください。<br />使える機器は使用したままのリニューアルも対応しております</p>
+					<h3 class="construction-heading"><mark class="highlight">・ワイヤレスカメラ工事</mark></h3>
+					<p class="construction-paragpraph">住宅用の安価なワイヤレスカメラはもちろん、配線が難しい場所での<br />ネットワークカメラのワイヤレス化も施工可能です</p>
+					<h3 class="construction-heading"><mark class="highlight">・防犯カメラの短期レンタル</mark></h3>
+					<p class="construction-paragpraph">マンションの大規模修繕の防犯カメラや、<br />工事現場の防犯カメラも短期レンタルを行っております</p>
 			</div>
 			<!-- point 2 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_2.png" alt="安心の料金設計！">
@@ -148,6 +223,7 @@ get_header();
 				<div class="p2_tri_outer">
 					<div class="point2_triangle"></div>
 				</div>
+				<p class="howToUse-paragraph">活用方法は様々！</p>
 				<img class="price_list" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list.jpg" alt="価格表">
 			</div>
 			<!-- point 3 -->
