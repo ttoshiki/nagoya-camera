@@ -89,12 +89,12 @@ get_header();
 			<!-- point 1 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_1.png" alt="消防・防災に関するあらゆるお困りごとを解決">
 			<div class="sec_inner_container mt-0 pt-2 sec_inner_bgwhite">
-					<h2 class="point1-heading2">場所／目的／シーン／必要な機能／に合った防犯カメラをご案内！</h2>
+					<h2 class="point1-heading2">場所／目的／シーン／必要な機能／<br class="sp" />に合った防犯カメラをご案内！</h2>
 					<img class="image-pc-sp" src="<?php bloginfo('template_directory'); ?>/img/front-page/point_1_pc_sp.png" alt="">
 					<p class="point1-always-check">
-						モニターはもちろんPCでもスマホでも<br />
+						モニターはもちろん<br class="sp" />PCでもスマホでも<br />
 						100万画素以上の鮮明画像を<br />
-						いつでも、どこでも遠隔で確認！
+						いつでも、どこでも<br class="sp" />遠隔で確認！
 					</p>
 					<div class="camera-type">
 						<img class="image-camera-type" src="<?php bloginfo('template_directory'); ?>/img/front-page/cloud_recording.png" alt="クラウド録画タイプカメラ">
@@ -131,7 +131,7 @@ get_header();
 							<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_type3_image.jpg" alt="" class="camera_type_image">
 						</div>
 						<ul class="camera_type_list">
-							<li class="camera_type_item">録画期間はカメラ1台で約2ヶ月（画質・コマ数の設定により異なります）</li>
+							<li class="camera_type_item">録画期間はカメラ1台で約2ヶ月<br />（画質・コマ数の設定により異なります）</li>
 							<li class="camera_type_item">2TB 大容量HDD装備</li>
 							<li class="camera_type_item">管理ソフト付属で複数拠点管理</li>
 							<li class="camera_type_item">既設アナログ混在 OK</li>
@@ -143,14 +143,14 @@ get_header();
 						<li>月々 5,000円〜導入できます！</li>
 					</ul>
 					<p class="camera_option_paragprah">
-						<mark class="highlight -under">各種センサー</mark>,<mark class="highlight -under">サイレン</mark>,<mark class="highlight -under">撃退装置連動</mark>も<br />
+						<mark class="highlight -under">各種センサー</mark>,<mark class="highlight -under">サイレン</mark>,<br /><mark class="highlight -under">撃退装置連動</mark>も<br />
 						弊社なら可能です
 					</p>
 					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_options.jpg" alt="" class="image-option">
 					<p class="how-to-use-paragraph">活用方法は様々！</p>
 					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/how_to_use.png" alt="" class="image-option">
 					<h2 class="heading-brd-radius">設置実績</h2>
-					<h3 class="point1-heading3"><strong class="point1-leaving">戸建住宅</strong>もお任せください！</h3>
+					<h3 class="point1-heading3"><strong class="point1-leaving">戸建住宅</strong>も<br class="sp">お任せください！</h3>
 					<ul class="achievement-list">
 						<li class="achievement-item">
 							<div class="achievement-genre">
@@ -208,13 +208,13 @@ get_header();
 					</ul>
 					<h2 class="heading-brd-radius">工事内容</h2>
 					<h3 class="construction-heading"><mark class="highlight">・防犯カメラ工事</mark></h3>
-					<p class="construction-paragpraph">豊富なラインナップから、お客様の要望と<br />ご予算に合ったカメラをご提案いたします</p>
-					<h3 class="construction-heading"><mark class="highlight">・防犯カメラのリニューアル工事</mark></h3>
-					<p class="construction-paragpraph">古くなったカメラのリニューアルもお任せください。<br />使える機器は使用したままのリニューアルも対応しております</p>
+					<p class="construction-paragpraph">豊富なラインナップから、<br class="sp">お客様の要望と<br />ご予算に合ったカメラを<br class="sp">ご提案いたします</p>
+					<h3 class="construction-heading"><mark class="highlight">・防犯カメラの</mark><br class="sp"><mark class="highlight">リニューアル工事</mark></h3>
+					<p class="construction-paragpraph">古くなったカメラの<br class="sp">リニューアルもお任せください。<br />使える機器は使用したままの<br class="sp">リニューアルも対応しております</p>
 					<h3 class="construction-heading"><mark class="highlight">・ワイヤレスカメラ工事</mark></h3>
-					<p class="construction-paragpraph">住宅用の安価なワイヤレスカメラはもちろん、配線が難しい場所での<br />ネットワークカメラのワイヤレス化も施工可能です</p>
-					<h3 class="construction-heading"><mark class="highlight">・防犯カメラの短期レンタル</mark></h3>
-					<p class="construction-paragpraph">マンションの大規模修繕の防犯カメラや、<br />工事現場の防犯カメラも短期レンタルを行っております</p>
+					<p class="construction-paragpraph">住宅用の安価なワイヤレスカメラは<br class="sp">もちろん、配線が難しい場所での<br />ネットワークカメラの<br class="sp">ワイヤレス化も施工可能です</p>
+					<h3 class="construction-heading"><mark class="highlight">・防犯カメラの</mark><mark class="highlight"> 短期レンタル</mark></h3>
+					<p class="construction-paragpraph">マンションの大規模修繕の<br class="sp">防犯カメラや、<br />工事現場の防犯カメラも<br class="sp">短期レンタルを行っております</p>
 			</div>
 			<!-- point 2 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_2.png" alt="ご要望に応えられる技術力/提案力" class="image-point2">
@@ -245,30 +245,36 @@ get_header();
 		<?php get_template_part('contactform-link'); ?>
 		<section id="front_result_and_voice" class="sec_container">
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/construction_results.png" alt="名古屋空調工事">
-			<div class="sec_inner_container sec_inner_bgred">
+			<div class="sec_inner_container sec_inner_bgblue">
 				<div class="row align-items-center">
 					<img class="col-4" src="<?php bloginfo('template_directory'); ?>/img/front-page/customer_message.png" alt="お客様の声">
 					<span class="col-8 custom_voice">
 						名古屋防犯カメラを<br class="md-br">利用してくださった<br>
-						<span class="underline_red">お客様の声</span>
+						<span class="underline_blue">お客様の声</span>
 					</span>
 				</div>
 				<div class="custom_voice_box">
 					<div class="speechbaloon">
-						これまで何年も他社に消防点検をお願いしていましたが、取り決めている価格が適正かどうか気になり、<span class="underline_yellow">軽い気持ちでお見積をお願い</span>しました。<span class="underline_yellow">相談にも親身に乗ってくれ、金額も細かな日時指定も頑張っていただけました。</span>
+						昔から「防犯カメラは高い」というイメージを持っていましたが、<span class="underline_yellow">こちらの予算に合わせてご提案していただけました。</span>支払の方法も選択することができ、導入して良かったと思っています。
 					</div>
 					<div class="custom_image">
 						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_1.png" alt="お客様">
-						<span class="voice_occupation">ホテル</span>
 					</div>
 				</div>
 				<div class="custom_voice_box">
 					<div class="speechbaloon">
-						新たに介護施設を開所するにあたり、消防設備の新設をお願いしました。<span class="underline_yellow">至急の話でしたが、スピーディにご対応いただき</span>無事に開所できました。
+						複数の工場があり、トラブル時以外にも工場内の動線等の確認もする為にカメラを導入しました。<span class="underline_yellow">各工場の状況を一括管理することができるようになり、</span>改善の指示も出しやすくなりました。
 					</div>
 					<div class="custom_image">
 						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_2.png" alt="お客様">
-						<span class="voice_occupation">介護施設</span>
+					</div>
+				</div>
+				<div class="custom_voice_box">
+					<div class="speechbaloon">
+						高額な商品を取り扱う為、侵入されるまでとにかく時間が掛かるよう、<span class="underline_yellow">カメラだけではなくスモークやネットなどの設備を組み合わせて</span>いただきました。実際にそうした設置が可能な業者さんは聞いたこともなく、頼んで良かったです。
+					</div>
+					<div class="custom_image">
+						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_3.png" alt="お客様">
 					</div>
 				</div>
 			</div>
@@ -345,7 +351,7 @@ get_header();
 				ご利用の流れ
 			</div>
 			<div class="front_flow_box">
-				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_flow_1.png">
+				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_flow_1.png" class="front_flow_image">
 				<div class="front_flow_box_text">
 					まずは<br class="md-br">御社のご要望を<br>
 					教えてください
@@ -353,7 +359,7 @@ get_header();
 			</div>
 			<div class="front_flow_triangle"></div>
 			<div class="front_flow_box">
-				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_flow_2.png">
+				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_flow_2.png" class="front_flow_image">
 				<div class="front_flow_box_text">
 					御社に合わせた<br class="md-br">工事プランを<br>
 					ご提案いたします
@@ -361,7 +367,7 @@ get_header();
 			</div>
 			<div class="front_flow_triangle"></div>
 			<div class="front_flow_box">
-				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_flow_3.png">
+				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_flow_3.png" class="front_flow_image">
 				<div class="front_flow_box_text">
 					工事プランに<br>
 					ご納得いただき<br class="md-br">契約成立
@@ -380,26 +386,26 @@ get_header();
 			<div class="sec_inner_container sec_inner_bgbrown">
 				<div class="qabox">
 					<div class="qabox_inner qabox_q">
-						器具(材料)は手配してあるので、<br />工事や申請だけでもお願いできますか？
+					既に設置してあるカメラの一部が故障しました。<br />部分的な交換も可能ですか？
 					</div>
 					<div class="qabox_inner qabox_a">
-						お客様支給での施工も可能です！
+						お客様のご要望に合わせ、部分的な交換でも対応可能です。
 					</div>
 				</div>
 				<div class="qabox">
 					<div class="qabox_inner qabox_q">
-						工事や点検は、夜間や休日、緊急時でも対応してもらえますか？
+						カメラの器材は持っているのですが、<br />工事だけでもお願いできますか？
 					</div>
 					<div class="qabox_inner qabox_a">
-						対応可能です。まずはお気軽にお問合せ下さい。
+						設定・施工のみでも可能です。
 					</div>
 				</div>
 				<div class="qabox">
 					<div class="qabox_inner qabox_q">
-						消防署との打合せもお願いできますか？
+						夜間や休日での施工も可能ですか？
 					</div>
 					<div class="qabox_inner qabox_a">
-						管轄消防署の担当者と弊社にて打合せをし、<br />お客様にご報告いたします。
+						対応可能です。お気軽にお問合せください。
 					</div>
 				</div>
 			</div>

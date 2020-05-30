@@ -1622,7 +1622,7 @@ a:active {
 }
 
 .point1-always-check {
-  font-size: 32px;
+  font-size: 38px;
   margin-top: 16px;
   color: #1b2656;
   font-weight: 600;
@@ -1655,7 +1655,7 @@ a:active {
 }
 
 .camera-type-heading.-last {
-  margin-top: 40px;
+  margin-top: 64px;
 }
 
 .camera-type-heading:last-of-type {
@@ -1665,6 +1665,11 @@ a:active {
 .camera_type_contents {
   width: 80%;
   margin: 16px auto 0;
+}
+
+.camera_type_images {
+  width: 40%;
+  max-width: 240px;
 }
 
 .camera_type_images_text {
@@ -1681,18 +1686,18 @@ a:active {
 
 .camera_type_list.-last {
   display: inline-block;
-  font-size: 20px;
+  font-size: 24px;
   color: #767d9a;
 }
 
 .camera_type_item {
   text-align: left;
-  font-size: 20px;
+  font-size: 24px;
   color: #767d9a;
 }
 
 .camera_option_paragprah {
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 48px;
   color: #1b2656;
   font-weight: 600;
@@ -1709,7 +1714,7 @@ a:active {
 }
 
 .how-to-use-paragraph {
-  margin-top: 48px;
+  margin: 48px auto 32px;
   position: relative;
   display: inline-block;
   font-weight: 600;
@@ -1773,7 +1778,7 @@ a:active {
   border-radius: 24px;
   padding: 16px 0;
   width: 90%;
-  max-width: 560px;
+  max-width: 800px;
   margin: 24px auto;
 }
 
@@ -1781,9 +1786,9 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0 0 0 12px;
+  padding: 0 0 0 4%;
   width: 52%;
-  font-size: 20px;
+  font-size: 1.9vw;
   color: #767d9a;
   font-weight: 600;
   align-content: flex-start;
@@ -1917,6 +1922,143 @@ a:active {
   .point3_text {
     font-size: 18px;
   }
+
+  .point1-heading2 {
+    font-size: 16px;
+  }
+
+  .image-pc-sp {
+    width: 80%;
+    margin: 24px 0 0 10%;
+  }
+
+  .point1-always-check {
+    font-size: 20px;
+  }
+
+  .camera-type {
+    flex-direction: column;
+    align-items: center;
+    margin: 32px auto 0;
+  }
+
+  .image-camera-type {
+    width: 90%;
+  }
+
+  .image-camera-type:first-child {
+    margin: 8px;
+  }
+
+  .camra-type-paragraph {
+    font-size: 16px;
+  }
+
+  .camera-type-heading {
+    width: 100%;
+  }
+
+  .camera_type_images {
+    width: 100%;
+  }
+
+  .camera_type_images img {
+    width: 50%;
+  }
+
+  .camera_type_contents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .camera_type_list {
+    margin: 8px 0 0;
+    padding-left: 8px;
+  }
+
+  .camera_type_item {
+    font-size: 15px;
+  }
+
+  .camera-type-heading:not(:first-child) {
+    margin-top: 32px;
+  }
+
+  .camera_type_list.-last {
+    font-size: 18px;
+  }
+
+  .camera_option_paragprah {
+    font-size: 18px;
+  }
+
+  .how-to-use-paragraph {
+    font-size: 16px;
+  }
+
+  .how-to-use-paragraph::before {
+    height: 28px;
+    left: -20px;
+  }
+
+  .how-to-use-paragraph::after {
+    height: 28px;
+    right: -16px;
+  }
+
+  .image-option {
+    width: 100%;
+  }
+
+  .heading-brd-radius {
+    font-size: 26px;
+  }
+
+  .point1-leaving {
+    font-size: 32px;
+  }
+
+  .achievement-item {
+    flex-direction: column;
+  }
+
+  .achievement-content-item {
+    font-size: 16px;
+  }
+
+  .achievement-genre {
+    width: 100%;
+    margin: 16px auto 8px;
+  }
+
+  .achievement-icon.-local_goverment {
+    width: 40%;
+  }
+
+  .achievement-icon.-real_estate {
+    width: 20%;
+  }
+
+  .achievement-icon.-general_company {
+    width: 30%;
+  }
+
+  .achievement-heading {
+    font-size: 32px;
+  }
+
+  .highlight {
+    display: inline-block;
+    margin-bottom: 6px;
+  }
+
+  .achievement-contents-list {
+    border-top: 3px dotted #000000;
+    border-left: none;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 16px;
+  }
 }
 
 /* ------ section # front_result_and_voice ------ */
@@ -1927,18 +2069,18 @@ a:active {
 
 #front_result_and_voice > img {
   width: 100%;
-  background-color: #ffd9d5;
+  background-color: #bdc0ce;
 }
 
-.sec_inner_bgred {
-  background-color: #ffd9d5;
+.sec_inner_bgblue {
+  background-color: #bdc0ce;
   padding: 0 5% 5%;
 }
 
-.underline_red {
+.underline_blue {
   font-size: 1.7em;
   letter-spacing: 2px;
-  background: linear-gradient(transparent 60%, #ffb3ac 40%);
+  background: linear-gradient(transparent 60%, #8d92aa 40%);
 }
 
 .underline_yellow {
@@ -1985,7 +2127,7 @@ a:active {
 }
 
 .custom_voice_box img {
-  height: 23vw;
+  height: auto;
   width: 17.2vw;
   margin: 0 8vw 0 4vw;
 }
@@ -2161,7 +2303,7 @@ a:active {
 .front_flow_box_text {
   margin-left: 2.5vw;
   text-align: left;
-  color: #231815;
+  color: #1b2656;
   font-size: 2.4vw;
   line-height: 1.28;
 }
@@ -2178,8 +2320,12 @@ a:active {
   margin: 2vw 0;
 }
 
+.front_flow_image {
+  max-width: 91px;
+}
+
 .front_flow_start {
-  color: #231815;
+  color: #1b2656;
   font-size: 4.2vw;
   padding-bottom: 20px;
 }
