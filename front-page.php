@@ -143,7 +143,7 @@ get_header();
 						<li>月々 5,000円〜導入できます！</li>
 					</ul>
 					<p class="camera_option_paragprah">
-						<mark class="highlight -under">各種センサー</mark>,<mark class="highlight -under">サイレン</mark>,<br /><mark class="highlight -under">撃退装置連動</mark>も<br />
+						<mark class="highlight -under">各種センサー</mark>,<mark class="highlight -under">サイレン</mark>,<br class="sp" /><mark class="highlight -under">撃退装置連動</mark>も<br />
 						弊社なら可能です
 					</p>
 					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/camera_options.jpg" alt="" class="image-option">
