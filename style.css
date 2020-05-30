@@ -1840,6 +1840,10 @@ a:active {
 
 /* -- point 2 -- */
 
+.image-point2 {
+  margin-top: 64px;
+}
+
 .p2_tri_outer {
   position: relative;
   margin-bottom: 6vw;
@@ -1863,12 +1867,12 @@ a:active {
 }
 
 .point3_text .point3_dark {
-  color: #495178;
+  color: #1b2656;
   font-size: 2.3vw;
 }
 
 .point3_text .point3_light {
-  color: #231815;
+  color: #767d9a;
   font-size: 2.3vw;
 }
 

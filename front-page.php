@@ -217,14 +217,10 @@ get_header();
 					<p class="construction-paragpraph">マンションの大規模修繕の防犯カメラや、<br />工事現場の防犯カメラも短期レンタルを行っております</p>
 			</div>
 			<!-- point 2 -->
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_2.png" alt="安心の料金設計！">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_2.png" alt="ご要望に応えられる技術力/提案力" class="image-point2">
 			<div class="sec_inner_container sec_inner_bgwhite sec_price">
-				<p class="pt-3 font-weight-bold">明確な料金設定で、工事費用が気になる方にも<br class="pc">安心してご利用頂いております。</p>
-				<div class="p2_tri_outer">
-					<div class="point2_triangle"></div>
-				</div>
-				<p class="howToUse-paragraph">活用方法は様々！</p>
-				<img class="price_list" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list.jpg" alt="価格表">
+				<p class="pt-3 font-weight-bold">明確な料金設定で、工事費用が気になる方にも安心してご利用頂いております。</p>
+				<img class="price_list" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list.png" alt="価格表">
 			</div>
 			<!-- point 3 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_3.png" alt="ジャンルが違っても一括受注が可能！">
@@ -240,7 +236,7 @@ get_header();
 				<div class="row genre_imgs">
 					<a href="//nagoya-denki.biz/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_electric.jpg" alt="名古屋電気工事"></a>
 					<a href="//nagoya-aircon.com/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_aircon.jpg" alt="名古屋空調工事"></a>
-					<a href="#"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_security.jpg" alt="防犯カメラセキュリティ"></a>
+					<a href="//nagoya-shoubo.com"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_firefight.jpg" alt="名古屋消防設備"></a>
 					<a href="http://zero-camera.net/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_camera.jpg" alt="無料防犯カメラ"></a>
 				</div>
 			</div>
