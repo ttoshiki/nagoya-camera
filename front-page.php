@@ -10,7 +10,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
 get_header();
@@ -19,7 +19,7 @@ get_header();
 <div id="front_page" class="content-area">
 	<main id="main" class="site-main">
 		<section id="front_top">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main.jpg" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main@2x.jpg" alt="名古屋消防" class="front_top-frontimg">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main.jpg" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main@2x.jpg" alt="名古屋防犯カメラ" class="front_top-frontimg">
 			<div class="first-campaign">
 				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/first_campaign.png" alt="初回限定特典">
 				<span>他社様<span class="small">の</span>見積書<br class="md-br">ご提示<span class="small">で</span>値引き対応！</span>
@@ -74,8 +74,8 @@ get_header();
 			</div>
 		</section>
 		<section id="front_about" class="sec_container">
-			<div class="about_nagoyashoubo">
-				"名古屋消防設備"<span class="small_about">とは</span>
+			<div class="about_nagoyacamera">
+				"名古屋防犯カメラ"<span class="small_about">とは</span>
 			</div>
 			<div class="service_map_wrapper">
 				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/service_map.png" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/service_map@2x.png" alt="愛知県名古屋市を中心にサービスを展開" class="service_map">
@@ -108,7 +108,7 @@ get_header();
 			</ul>
 		</section>
 		<section id="front_3point" class="sec_container">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/three_points.png" alt="名古屋消防設備が選ばれている3つのポイント">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/three_points.png" alt="名古屋防犯カメラが選ばれている3つのポイント">
 			<!-- point 1 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_1.png" alt="消防・防災に関するあらゆるお困りごとを解決">
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/building.jpg" alt="" class="front_3pointBuildingImg">
@@ -177,7 +177,7 @@ get_header();
 				<div class="row align-items-center">
 					<img class="col-4" src="<?php bloginfo('template_directory'); ?>/img/front-page/customer_message.png" alt="お客様の声">
 					<span class="col-8 custom_voice">
-						名古屋消防設備を<br class="md-br">利用してくださった<br>
+						名古屋防犯カメラを<br class="md-br">利用してくださった<br>
 						<span class="underline_red">お客様の声</span>
 					</span>
 				</div>
@@ -203,7 +203,7 @@ get_header();
 		</section>
 		<section id="front_company" class="sec_container sec_inner_bgblue">
 			<div class="company_box_header">
-				名古屋消防設備／会社概要
+				名古屋防犯カメラ／会社概要
 			</div>
 			<div class="company_box">
 				<div class="company_1st_message">

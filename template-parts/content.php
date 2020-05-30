@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
 ?>
@@ -23,21 +23,21 @@
             ?>
 			<div class="entry-meta">
 				<?php
-                    nagoya_shoubo_posted_on();
-                    // nagoya_shoubo_posted_by();
+                    nagoya_camera_posted_on();
+                    // nagoya_camera_posted_by();
                     ?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php nagoya_shoubo_post_thumbnail(); ?>
+	<?php nagoya_camera_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
         the_content(sprintf(
                         wp_kses(
                 /* translators: %s: Name of current post. Only visible to screen readers */
-                __('Continue reading<span class="screen-reader-text"> "%s"</span>', 'nagoya-shoubo'),
+                __('Continue reading<span class="screen-reader-text"> "%s"</span>', 'nagoya-camera'),
                             array(
                     'span' => array(
                         'class' => array(),
@@ -48,13 +48,13 @@
                     ));
 
         wp_link_pages(array(
-            'before' => '<div class="page-links">' . esc_html__('Pages:', 'nagoya-shoubo'),
+            'before' => '<div class="page-links">' . esc_html__('Pages:', 'nagoya-camera'),
             'after'  => '</div>',
         ));
         ?>
 	</div><!-- .entry-content -->
 
 	<!-- <footer class="entry-footer">
-		<?php nagoya_shoubo_entry_footer(); ?>
+		<?php nagoya_camera_entry_footer(); ?>
 	</footer> --><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

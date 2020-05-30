@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
 /**
@@ -14,12 +14,12 @@
  * See: https://jetpack.com/support/responsive-videos/
  * See: https://jetpack.com/support/content-options/
  */
-function nagoya_shoubo_jetpack_setup()
+function nagoya_camera_jetpack_setup()
 {
     // Add theme support for Infinite Scroll.
     add_theme_support('infinite-scroll', array(
         'container' => 'main',
-        'render'    => 'nagoya_shoubo_infinite_scroll_render',
+        'render'    => 'nagoya_camera_infinite_scroll_render',
         'footer'    => 'page',
     ));
 
@@ -29,7 +29,7 @@ function nagoya_shoubo_jetpack_setup()
     // Add theme support for Content Options.
     add_theme_support('jetpack-content-options', array(
         'post-details'    => array(
-            'stylesheet' => 'nagoya-shoubo-style',
+            'stylesheet' => 'nagoya-camera-style',
             'date'       => '.posted-on',
             'categories' => '.cat-links',
             'tags'       => '.tags-links',
@@ -43,12 +43,12 @@ function nagoya_shoubo_jetpack_setup()
         ),
     ));
 }
-add_action('after_setup_theme', 'nagoya_shoubo_jetpack_setup');
+add_action('after_setup_theme', 'nagoya_camera_jetpack_setup');
 
 /**
  * Custom render function for Infinite Scroll.
  */
-function nagoya_shoubo_infinite_scroll_render()
+function nagoya_camera_infinite_scroll_render()
 {
     while (have_posts()) {
         the_post();

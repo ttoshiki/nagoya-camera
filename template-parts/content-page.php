@@ -4,13 +4,13 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php nagoya_shoubo_post_thumbnail(); ?>
+	<?php nagoya_camera_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -19,7 +19,7 @@
         the_content();
 
         wp_link_pages(array(
-            'before' => '<div class="page-links">' . esc_html__('Pages:', 'nagoya-shoubo'),
+            'before' => '<div class="page-links">' . esc_html__('Pages:', 'nagoya-camera'),
             'after'  => '</div>',
         ));
         ?>

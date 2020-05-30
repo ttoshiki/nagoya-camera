@@ -1,14 +1,14 @@
 <?php
 
 /**
- * nagoya-shoubo functions and definitions
+ * nagoya-camera functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
-if (!function_exists('nagoya_shoubo_setup')) :
+if (!function_exists('nagoya_camera_setup')) :
     /**
      * Sets up theme defaults and registers support for various WordPress features.
      *
@@ -16,15 +16,15 @@ if (!function_exists('nagoya_shoubo_setup')) :
      * runs before the init hook. The init hook is too late for some features, such
      * as indicating support for post thumbnails.
      */
-    function nagoya_shoubo_setup()
+    function nagoya_camera_setup()
     {
         /*
          * Make theme available for translation.
          * Translations can be filed in the /languages/ directory.
-         * If you're building a theme based on nagoya-shoubo, use a find and replace
-         * to change 'nagoya-shoubo' to the name of your theme in all the template files.
+         * If you're building a theme based on nagoya-camera, use a find and replace
+         * to change 'nagoya-camera' to the name of your theme in all the template files.
          */
-        load_theme_textdomain('nagoya-shoubo', get_template_directory() . '/languages');
+        load_theme_textdomain('nagoya-camera', get_template_directory() . '/languages');
 
         // Add default posts and comments RSS feed links to head.
         add_theme_support('automatic-feed-links');
@@ -46,7 +46,7 @@ if (!function_exists('nagoya_shoubo_setup')) :
 
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(array(
-            'menu-1' => esc_html__('Primary', 'nagoya-shoubo'),
+            'menu-1' => esc_html__('Primary', 'nagoya-camera'),
         ));
 
         /*
@@ -62,7 +62,7 @@ if (!function_exists('nagoya_shoubo_setup')) :
         ));
 
         // Set up the WordPress core custom background feature.
-        add_theme_support('custom-background', apply_filters('nagoya_shoubo_custom_background_args', array(
+        add_theme_support('custom-background', apply_filters('nagoya_camera_custom_background_args', array(
             'default-color' => 'ffffff',
             'default-image' => '',
         )));
@@ -83,7 +83,7 @@ if (!function_exists('nagoya_shoubo_setup')) :
         ));
     }
 endif;
-add_action('after_setup_theme', 'nagoya_shoubo_setup');
+add_action('after_setup_theme', 'nagoya_camera_setup');
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -92,50 +92,50 @@ add_action('after_setup_theme', 'nagoya_shoubo_setup');
  *
  * @global int $content_width
  */
-function nagoya_shoubo_content_width()
+function nagoya_camera_content_width()
 {
     // This variable is intended to be overruled from themes.
     // Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
     // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
-    $GLOBALS['content_width'] = apply_filters('nagoya_shoubo_content_width', 640);
+    $GLOBALS['content_width'] = apply_filters('nagoya_camera_content_width', 640);
 }
-add_action('after_setup_theme', 'nagoya_shoubo_content_width', 0);
+add_action('after_setup_theme', 'nagoya_camera_content_width', 0);
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function nagoya_shoubo_widgets_init()
+function nagoya_camera_widgets_init()
 {
     register_sidebar(array(
-        'name'          => esc_html__('Sidebar', 'nagoya-shoubo'),
+        'name'          => esc_html__('Sidebar', 'nagoya-camera'),
         'id'            => 'sidebar-1',
-        'description'   => esc_html__('Add widgets here.', 'nagoya-shoubo'),
+        'description'   => esc_html__('Add widgets here.', 'nagoya-camera'),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h2 class="widget-title">',
         'after_title'   => '</h2>',
     ));
 }
-add_action('widgets_init', 'nagoya_shoubo_widgets_init');
+add_action('widgets_init', 'nagoya_camera_widgets_init');
 
 /**
  * Enqueue scripts and styles.
  */
-function nagoya_shoubo_scripts()
+function nagoya_camera_scripts()
 {
-    wp_enqueue_style('nagoya-shoubo-style', get_stylesheet_uri());
+    wp_enqueue_style('nagoya-camera-style', get_stylesheet_uri());
 
-    wp_enqueue_script('nagoya-shoubo-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true);
+    wp_enqueue_script('nagoya-camera-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true);
 
-    wp_enqueue_script('nagoya-shoubo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true);
+    wp_enqueue_script('nagoya-camera-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }
 }
-add_action('wp_enqueue_scripts', 'nagoya_shoubo_scripts');
+add_action('wp_enqueue_scripts', 'nagoya_camera_scripts');
 
 /**
  * Implement the Custom Header feature.

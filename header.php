@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
 ?>
@@ -19,14 +19,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="shortcut icon" href="https://nagoya-shoubo.com/wp-content/themes/nagoya-shoubo/favicon.ico">
+	<link rel="shortcut icon" href="https://nagoya-camera.com/wp-content/themes/nagoya-camera/favicon.ico">
 
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<div id="page" class="site">
-		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'nagoya-shouboo'); ?></a>
+		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'nagoya-camera'); ?></a>
 
 		<header id="masthead" class="site-header">
 			<div class="row mx-2">

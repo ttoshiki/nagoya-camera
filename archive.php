@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
 get_header();

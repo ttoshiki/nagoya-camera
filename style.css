@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-Theme Name: nagoya-shoubo
+Theme Name: nagoya-camera
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -8,13 +8,13 @@ Description: 「_s」テーマを元に作成した、名古屋消防オリジ�
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: nagoya-shoubo
+Text Domain: nagoya-camera
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-nagoya-shoubo is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+nagoya-camera is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -1273,7 +1273,7 @@ a:active {
   width: 100%;
 }
 
-.about_nagoyashoubo {
+.about_nagoyacamera {
   margin: 0 -8%;
   padding: 20px 10px;
   background-color: black;
@@ -1283,7 +1283,7 @@ a:active {
   letter-spacing: 3px;
 }
 
-.about_nagoyashoubo .small_about {
+.about_nagoyacamera .small_about {
   font-size: 50%;
 }
 
@@ -1303,7 +1303,7 @@ a:active {
 }
 
 @media (max-width: 768px) {
-  .about_nagoyashoubo {
+  .about_nagoyacamera {
     font-size: 7vw;
   }
 

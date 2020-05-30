@@ -8,34 +8,34 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package nagoya-shoubo
+ * @package nagoya-camera
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses nagoya_shoubo_header_style()
+ * @uses nagoya_camera_header_style()
  */
-function nagoya_shoubo_custom_header_setup()
+function nagoya_camera_custom_header_setup()
 {
-    add_theme_support('custom-header', apply_filters('nagoya_shoubo_custom_header_args', array(
+    add_theme_support('custom-header', apply_filters('nagoya_camera_custom_header_args', array(
         'default-image'          => '',
         'default-text-color'     => '000000',
         'width'                  => 1000,
         'height'                 => 250,
         'flex-height'            => true,
-        'wp-head-callback'       => 'nagoya_shoubo_header_style',
+        'wp-head-callback'       => 'nagoya_camera_header_style',
     )));
 }
-add_action('after_setup_theme', 'nagoya_shoubo_custom_header_setup');
+add_action('after_setup_theme', 'nagoya_camera_custom_header_setup');
 
-if (! function_exists('nagoya_shoubo_header_style')) :
+if (! function_exists('nagoya_camera_header_style')) :
     /**
      * Styles the header image and text displayed on the blog.
      *
-     * @see nagoya_shoubo_custom_header_setup().
+     * @see nagoya_camera_custom_header_setup().
      */
-    function nagoya_shoubo_header_style()
+    function nagoya_camera_header_style()
     {
         $header_text_color = get_header_textcolor();
 
